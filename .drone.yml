@@ -1,3 +1,5 @@
 image: bradrydzewski/java:oraclejdk7
+services:
+  - kuhess/hbase-0.92
 script:
   - ./gradlew test

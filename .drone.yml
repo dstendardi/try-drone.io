@@ -1,5 +1,5 @@
 image: bradrydzewski/java:oraclejdk7
 services:
-  - pouet kuhess/docker-python 9200
+  - pouet kuhess/docker-python
 script:
   - ./gradlew test

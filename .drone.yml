@@ -2,5 +2,5 @@ image: bradrydzewski/java:oraclejdk7
 services:
   - elasticsearch dockerfile/elasticsearch 9200
 script:
-  - sleep 5
+  - sleep 10
   - curl -XGET http://localhost:9200/

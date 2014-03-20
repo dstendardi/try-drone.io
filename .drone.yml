@@ -1,6 +1,6 @@
 image: bradrydzewski/java:oraclejdk7
 services:
-  - elasticsearch bradrydzewski/elasticsearch
+  - elasticsearch bradrydzewski/elasticsearch:0.90
 script:
   -
   - curl -XGET http://localhost:9200/

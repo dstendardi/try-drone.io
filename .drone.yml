@@ -1,3 +1,5 @@
 image: bradrydzewski/java:oraclejdk7
+services:
+  - elasticsearch dockerfile/elasticsearch
 script:
-  - ./gradlew test
+  - curl -XGET http://localhost:9200/

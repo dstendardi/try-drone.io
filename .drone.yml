@@ -2,6 +2,4 @@ image: bradrydzewski/java:oraclejdk7
 services:
   - elasticsearch dockerfile/elasticsearch 9200
 script:
-  - ./gradlew test
-  - echo "youp youp!"
   - curl -XGET http://localhost:9200/

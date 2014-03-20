@@ -3,5 +3,5 @@ services:
   - elasticsearch bradrydzewski/elasticsearch:0.90
 script:
   - ./gradlew test
-  - echo "youp youp"
+  - echo "youp youp!"
   - curl -XGET http://localhost:9200/

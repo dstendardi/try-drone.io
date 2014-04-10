@@ -1,4 +1,4 @@
-image: bradrydzewski/java:oraclejdk7
+image: ubuntu:latest
 services:
   - dockerfile/elasticsearch
 script:

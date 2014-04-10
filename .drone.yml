@@ -1,4 +1,4 @@
-image: ubuntu:latest
+image: stackbrew/ubuntu
 services:
   - dockerfile/elasticsearch
 script:

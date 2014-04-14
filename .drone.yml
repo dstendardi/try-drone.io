@@ -1,4 +1,3 @@
 image: bradrydzewski/java:oraclejdk7
 script:
   - ./gradlew test
-
